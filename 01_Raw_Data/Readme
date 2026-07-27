@@ -1,0 +1,147 @@
+# 01_Raw_Data
+
+## Overview
+
+This directory contains the complete raw dataset acquired during the experimental evaluation described in the accompanying manuscript.
+
+The data were collected directly from the MPU6050 inertial measurement unit (IMU) mounted on the ESP32-based embedded platform. These files represent the original measurements before any preprocessing, filtering, feature extraction, normalization, segmentation, or machine learning operations.
+
+The purpose of providing the raw dataset is to ensure full transparency and reproducibility of the experimental workflow.
+
+---
+
+## Contents
+
+This directory includes:
+
+- Original sensor recordings
+- Raw accelerometer measurements
+- Raw gyroscope measurements
+- Time stamps associated with each acquisition
+- Original activity labels assigned during data collection (if available)
+- Data acquisition notes
+
+No modifications have been applied to these files.
+
+---
+
+## Data Description
+
+The raw dataset contains measurements acquired directly from the MPU6050 sensor.
+
+Typical recorded variables include:
+
+| Variable | Description |
+|----------|-------------|
+| Timestamp | Sampling instant |
+| Acc_X | X-axis acceleration |
+| Acc_Y | Y-axis acceleration |
+| Acc_Z | Z-axis acceleration |
+| Gyro_X | X-axis angular velocity |
+| Gyro_Y | Y-axis angular velocity |
+| Gyro_Z | Z-axis angular velocity |
+| Label | Motion class (when available) |
+
+The exact variable names may vary depending on the acquisition software.
+
+---
+
+## Acquisition Procedure
+
+The data acquisition process consisted of the following steps:
+
+1. Initialization of the ESP32 embedded platform.
+2. Configuration of the MPU6050 IMU.
+3. Continuous acquisition of inertial measurements.
+4. Storage of the acquired samples without preprocessing.
+5. Export of the collected data in CSV format.
+
+No filtering or feature engineering was performed during this stage.
+
+---
+
+## Data Integrity
+
+The files contained in this directory are preserved exactly as acquired from the experimental platform.
+
+Specifically, no:
+
+- normalization,
+- interpolation,
+- missing-value correction,
+- smoothing,
+- window segmentation,
+- feature extraction, or
+- class balancing
+
+has been applied.
+
+All preprocessing operations are documented separately in the **02_Processed_Data** directory.
+
+---
+
+## Relationship to the Manuscript
+
+These files constitute the starting point of the experimental workflow presented in the manuscript.
+
+The workflow is summarized as follows:
+
+```
+Raw Data
+    │
+    ▼
+Data Cleaning
+    │
+    ▼
+Feature Extraction
+    │
+    ▼
+Model Training
+    │
+    ▼
+Embedded Deployment
+```
+
+The processed datasets generated from these files are available in:
+
+```
+02_Processed_Data/
+```
+
+---
+
+## File Format
+
+The raw data are provided in CSV format.
+
+Encoding:
+
+```
+UTF-8
+```
+
+Delimiter:
+
+```
+Comma (,)
+```
+
+Decimal separator:
+
+```
+.
+```
+
+---
+
+## Reproducibility
+
+Researchers wishing to reproduce the experiments should begin with the files contained in this directory before performing any preprocessing or feature extraction.
+
+These files represent the original experimental observations used throughout the study.
+
+---
+
+## Notes
+
+The raw data are intentionally preserved without modification to maintain complete experimental traceability and facilitate independent verification of the reported results.
