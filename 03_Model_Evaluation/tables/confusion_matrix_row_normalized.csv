@@ -1,0 +1,46 @@
+model,true_label,predicted_label,row_normalized_rate
+Logistic Regression,0,0,0.9994397759103641
+Logistic Regression,0,1,0.0005602240896358543
+Logistic Regression,0,2,0.0
+Logistic Regression,1,0,0.005042016806722689
+Logistic Regression,1,1,0.9775910364145658
+Logistic Regression,1,2,0.017366946778711485
+Logistic Regression,2,0,0.0
+Logistic Regression,2,1,0.0380952380952381
+Logistic Regression,2,2,0.9619047619047619
+Decision Tree d6,0,0,1.0
+Decision Tree d6,0,1,0.0
+Decision Tree d6,0,2,0.0
+Decision Tree d6,1,0,0.002240896358543417
+Decision Tree d6,1,1,0.984313725490196
+Decision Tree d6,1,2,0.013445378151260505
+Decision Tree d6,2,0,0.0
+Decision Tree d6,2,1,0.03305322128851541
+Decision Tree d6,2,2,0.9669467787114846
+Random Forest compact,0,0,0.9994397759103641
+Random Forest compact,0,1,0.0005602240896358543
+Random Forest compact,0,2,0.0
+Random Forest compact,1,0,0.0028011204481792717
+Random Forest compact,1,1,0.9882352941176471
+Random Forest compact,1,2,0.008963585434173669
+Random Forest compact,2,0,0.0
+Random Forest compact,2,1,0.028011204481792718
+Random Forest compact,2,2,0.9719887955182073
+MLP compact 32-16,0,0,0.9983193277310924
+MLP compact 32-16,0,1,0.0016806722689075631
+MLP compact 32-16,0,2,0.0
+MLP compact 32-16,1,0,0.005042016806722689
+MLP compact 32-16,1,1,0.9809523809523809
+MLP compact 32-16,1,2,0.014005602240896359
+MLP compact 32-16,2,0,0.0
+MLP compact 32-16,2,1,0.036414565826330535
+MLP compact 32-16,2,2,0.9635854341736695
+MLP reference 64-32,0,0,0.9983193277310924
+MLP reference 64-32,0,1,0.0016806722689075631
+MLP reference 64-32,0,2,0.0
+MLP reference 64-32,1,0,0.0028011204481792717
+MLP reference 64-32,1,1,0.9837535014005602
+MLP reference 64-32,1,2,0.013445378151260505
+MLP reference 64-32,2,0,0.0
+MLP reference 64-32,2,1,0.048179271708683476
+MLP reference 64-32,2,2,0.9518207282913165

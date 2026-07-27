@@ -1,0 +1,11 @@
+model_a,model_b,mean_f1_difference_a_minus_b,median_f1_difference_a_minus_b,wins_a,ties,wins_b,n_subjects,exact_sign_flip_p_unadjusted,exact_sign_flip_p_holm
+MLP compact 32-16,Random Forest compact,-0.005626514242806269,-0.004668763032812717,0,0,5,5,0.0625,0.625
+Decision Tree d6,Logistic Regression,0.004140390226678625,0.0018380612840650512,4,1,0,5,0.125,1.0
+Logistic Regression,Random Forest compact,-0.006989053836854065,-0.006536268245937893,0,1,4,5,0.125,1.0
+Decision Tree d6,Random Forest compact,-0.0028486636101754392,-0.0037580919694178982,0,2,3,5,0.25,1.0
+Logistic Regression,MLP compact 32-16,-0.0013625395940477958,-0.0012376376366252106,2,0,3,5,0.25,1.0
+MLP reference 64-32,Random Forest compact,-0.00871844287884822,-0.0037072866007407113,1,1,3,5,0.25,1.0
+Decision Tree d6,MLP compact 32-16,0.0027778506326308293,0.001868418941458616,4,0,1,5,0.3125,1.0
+Decision Tree d6,MLP reference 64-32,0.005869779268672781,0.0,2,1,2,5,0.75,1.0
+Logistic Regression,MLP reference 64-32,0.001729389041994156,-0.0018675052131251757,1,1,3,5,1.0,1.0
+MLP compact 32-16,MLP reference 64-32,0.0030919286360419516,-0.0009337086475936784,1,1,3,5,1.0,1.0

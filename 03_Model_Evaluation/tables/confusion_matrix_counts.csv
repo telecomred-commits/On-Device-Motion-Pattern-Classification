@@ -1,0 +1,46 @@
+model,true_label,predicted_label,count
+Logistic Regression,0,0,1784
+Logistic Regression,0,1,1
+Logistic Regression,0,2,0
+Logistic Regression,1,0,9
+Logistic Regression,1,1,1745
+Logistic Regression,1,2,31
+Logistic Regression,2,0,0
+Logistic Regression,2,1,68
+Logistic Regression,2,2,1717
+Decision Tree d6,0,0,1785
+Decision Tree d6,0,1,0
+Decision Tree d6,0,2,0
+Decision Tree d6,1,0,4
+Decision Tree d6,1,1,1757
+Decision Tree d6,1,2,24
+Decision Tree d6,2,0,0
+Decision Tree d6,2,1,59
+Decision Tree d6,2,2,1726
+Random Forest compact,0,0,1784
+Random Forest compact,0,1,1
+Random Forest compact,0,2,0
+Random Forest compact,1,0,5
+Random Forest compact,1,1,1764
+Random Forest compact,1,2,16
+Random Forest compact,2,0,0
+Random Forest compact,2,1,50
+Random Forest compact,2,2,1735
+MLP compact 32-16,0,0,1782
+MLP compact 32-16,0,1,3
+MLP compact 32-16,0,2,0
+MLP compact 32-16,1,0,9
+MLP compact 32-16,1,1,1751
+MLP compact 32-16,1,2,25
+MLP compact 32-16,2,0,0
+MLP compact 32-16,2,1,65
+MLP compact 32-16,2,2,1720
+MLP reference 64-32,0,0,1782
+MLP reference 64-32,0,1,3
+MLP reference 64-32,0,2,0
+MLP reference 64-32,1,0,5
+MLP reference 64-32,1,1,1756
+MLP reference 64-32,1,2,24
+MLP reference 64-32,2,0,0
+MLP reference 64-32,2,1,86
+MLP reference 64-32,2,2,1699
