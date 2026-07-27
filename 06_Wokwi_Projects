@@ -1,1 +1,15 @@
+The complete firmware can also be executed directly in the Wokwi online simulator.
+
+### Public Wokwi Projects
+
+| Project | Description | Link |
+|----------|-------------|------|
+| Prototype 1 | Data acquisition | https://wokwi.com/projects/460327670730930177 |
+| Prototype 2 | Logistic Regression | https://wokwi.com/projects/470458578467438593 |
+| Prototype 3 | Decision Tree | https://wokwi.com/projects/470459222869851137 |
+| Prototype 4 | Random Forest | https://wokwi.com/projects/470458578467438593 |
+| Prototype 5 | Compact MLP | https://wokwi.com/projects/470459879445187585|
+| Prototype 6 | Reference MLP | https://wokwi.com/projects/470460368287137793 |
+
+Researchers can clone any project directly from Wokwi to reproduce the experiments without additional hardware configuration.
 
