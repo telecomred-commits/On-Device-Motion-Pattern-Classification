@@ -2,7 +2,7 @@
 On-Device Motion Pattern Classification: A Comparative Study of Compact Machine Learning Models on ESP32.
 # On-Device Motion Pattern Classification – Reproducibility Package
 
-[![DOI](https://zenodo.org/badge/DOI/1152910605.svg)](https://doi.org/10.5281/zenodo.20898995)
+[![DOI](https://zenodo.org/badge/DOI/1313243302.svg)](https://doi.org/10.5281/zenodo.21614137)
 
 ## Repository Overview
 
